@@ -1,8 +1,23 @@
+"use client";
+
 import React from 'react'
 import DesBanner from '../../assests/Group 316.png'
 import HeaderButton from './ui/headerButton'
 import call from '../../assests/Call.png'
+import axios from 'axios';
 export default function HeroSection() {
+  
+    const handleClick = async () => {
+        try {
+             // Sending the POST request to track button click analytics
+            await axios.post('https://api.reportzai.com/api/call-analytics');
+            // // alert('Button click recorded successfully!');
+  
+        } catch (error) {
+            // console.error('Error recording button click:', error);
+            // alert('Failed to record button click');
+        }
+    };
   return (
     <section className='relative'>
         <div className="hero-image">
@@ -21,7 +36,10 @@ export default function HeroSection() {
               <h3 className="banner-heading text-2xl mt-5 mb-8">
               Smart Solutions. Affordable Prices. Future Ready.
               </h3>
-        <a  href="tel:+91 82373 58619"  className="rounded-2xl button py-4 px-6 bg-black text-white inline lg:hidden  " >
+
+
+        <a     onClick={handleClick}
+                onTouchStart={handleClick} href="tel:+91 82373 58619"  className="rounded-2xl button py-4 px-6 bg-black text-white inline lg:hidden  " >
               
         <svg className='inline mr-3' width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect y="30" width="30" height="30" transform="rotate(-90 0 30)" fill="url(#pattern0_150_51)"/>

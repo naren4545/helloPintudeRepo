@@ -1,10 +1,10 @@
+"use client";
 import React from 'react';
 import logo from '../../assests/PinTude_Logo_v4_Transparent 1.png'
 import Image from 'next/image';
 import Hamburger from './HamBurger';
 import HeaderButton from './ui/headerButton';
 import Logo from './ui/Logo';
-
 const Navbar = () => {
   return (
     <header className='reletive'>
@@ -23,12 +23,10 @@ const Navbar = () => {
         <a href="#" className="hover:text-gray-700">Faq</a>
         <a href="#" className="hover:text-gray-700">Contact</a> */}
 
-        <div className='lg:ml-3 ml-0' style={{
-    paddingTop: "30px",
-}}>
+        <div className='ml-3 pt-[30px]'>
         <a
          href="tel:+91 82373 58619"
-          className="border inline lg:hidden text-sm border-black px-4 py-2 rounded-[7px] hover:bg-gray-100 transition-colors"
+          className="border inline lg:hidden text-sm border-black px-4 py-2 rounded-[7px] hover:bg-gray-100 transition-colors" 
         >
          Give a missed call
         </a>
