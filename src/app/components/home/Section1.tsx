@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Profiler } from 'react'
 import promo from '../../assests/Rectangle 7.png'
 import Image from 'next/image'
 import {
@@ -9,6 +9,7 @@ import {
     FaTelegramPlane,
   } from "react-icons/fa";
   import { AiOutlineMail, AiOutlineMessage } from "react-icons/ai";
+import Promo from './ui/Promo';
 export default function Section1() {
 
 
@@ -135,8 +136,8 @@ Share on</p>
               </div>
       </div>
       <div className=" p-4 flex items-center">
-
-        <Image src={promo} alt='promo'/>
+<Promo/>
+        {/* <Image src={promo} alt='promo'/> */}
       </div>
     
     </div>

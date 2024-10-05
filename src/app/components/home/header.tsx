@@ -3,6 +3,7 @@ import logo from '../../assests/PinTude_Logo_v4_Transparent 1.png'
 import Image from 'next/image';
 import Hamburger from './HamBurger';
 import HeaderButton from './ui/headerButton';
+import Logo from './ui/Logo';
 
 const Navbar = () => {
   return (
@@ -11,9 +12,9 @@ const Navbar = () => {
         <div className='max-w-[1200px] mx-auto'>
     <nav className="flex flex-col lg:flex-row lg:justify-between justify-center items-center p-4 bg-white ">
       {/* Logo Section */}
-      <div className="flex  items-center space-x-2">
-        <Image src={logo} alt="Pintude Logo" className="" /> {/* Replace with your logo */}
-        
+      <div className="flex  items-center justify-center lg:justify-start w-full space-x-2 lg:w-auto relative">
+        <Image src={logo} alt="Pintude Logo" className="hidden" /> {/* Replace with your logo */}
+        <Logo/>
       </div>
 
       {/* Links Section */}
@@ -22,14 +23,16 @@ const Navbar = () => {
         <a href="#" className="hover:text-gray-700">Faq</a>
         <a href="#" className="hover:text-gray-700">Contact</a> */}
 
-        <div className='ml-3'>
+        <div className='lg:ml-3 ml-0' style={{
+    paddingTop: "30px",
+}}>
         <a
          href="tel:+91 82373 58619"
           className="border inline lg:hidden text-sm border-black px-4 py-2 rounded-[7px] hover:bg-gray-100 transition-colors"
         >
          Give a missed call
         </a>
-        <HeaderButton className='border hidden lg:inline text-sm border-black px-4 py-2 rounded-[7px] hover:bg-gray-100 transition-colors'> Give a missed call</HeaderButton>
+        <HeaderButton className=' mt-5 border hidden lg:inline text-sm border-black px-4 py-2 rounded-[7px] hover:bg-gray-100 transition-colors'> Give a missed call</HeaderButton>
       </div>
       </div>
 
