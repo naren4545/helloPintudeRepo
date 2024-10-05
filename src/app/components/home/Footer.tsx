@@ -27,7 +27,7 @@ export default function Footer() {
 
 {/* <NewsletterSection/> */}
 <div className='py-8 my-5 max-w-[1120px] mx-auto border-footer '>
-<p className='text-xl text-center'>We Are Here To Help You at Every Step 
+<p className='text-xl text-center p-4'>We Are Here To Help You at Every Step 
 Give us a missed call and our representatives will get back to you with information and personalized support.</p>
 <p className='text-xl font-medium text-center'>Made in India <br/>For India❤️</p>
 </div>
