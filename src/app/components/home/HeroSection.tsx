@@ -30,15 +30,14 @@ export default function HeroSection() {
         <div className="hero-content relative  py-4 lg:py-10 px-5 lg:bg-transparent md:bg-transparent md:p-6  bottom-0 lg:absolute">
           <div className="grid grid-cols-1 py-0 md:py-10 lg:py-0">
             <div className='text-center'>
-                <h1 className='text-6xl font-bold'>Hello</h1>
-              <h2 className="banner-sub-heading lg:text-7xl text-3xl font-bold  max-w-[720px] mx-auto">Step Into The
-              Digital Revolution.</h2>
+                <h1 className='text-4xl font-bold'>Hello Business Owners</h1>
+              <h2 className="banner-sub-heading lg:text-7xl text-3xl font-bold  max-w-[720px] mx-auto">Step Into The Digital World with PinTude</h2>
               <h3 className="banner-heading text-2xl mt-5 mb-8">
               Smart Solutions. Affordable Prices. Future Ready.
               </h3>
 
 
-        <a     onClick={handleClick}
+        {/* <a     onClick={handleClick}
                 onTouchStart={handleClick} href="tel:+91 82373 58619"  className="rounded-2xl button py-4 px-6 bg-black text-sm text-white inline lg:hidden  " >
               
         <svg className='inline mr-3' width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +58,7 @@ Give us a Missed Call Now
 <HeaderButton className="rounded-2xl button py-4 px-6 bg-black text-white lg:inline  hidden  ">
 
 <img className='inline mr-3' src={call.src}/>
-Give us a Missed Call Now</HeaderButton>
+Give us a Missed Call Now</HeaderButton> */}
 
             </div>
           </div>

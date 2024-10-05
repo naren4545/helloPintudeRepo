@@ -37,7 +37,7 @@ const Navbar = () => {
         <a href="#" className="hover:text-gray-700">Faq</a> 
         <a href="#" className="hover:text-gray-700">Contact</a> */}
 
-        <div className='ml-3 '> 
+        {/* <div className='ml-3 '> 
         <a    onClick={handleClick}
                 onTouchStart={handleClick}  
          href="tel:+91 82373 58619"
@@ -46,7 +46,7 @@ const Navbar = () => {
          Give a missed call
         </a>
         <HeaderButton className=' mt-5 border hidden lg:inline text-sm border-black px-4 py-2 rounded-[7px] hover:bg-gray-100 transition-colors'> Give a missed call</HeaderButton>
-      </div>
+      </div> */}
       </div>
 
       {/* Sign Up Button */}
