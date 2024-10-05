@@ -1,9 +1,11 @@
-
+"use client"
 
 import React, { Profiler } from 'react'
 import promo from '../../assests/Rectangle 7.png'
 import Image from 'next/image'
 import HeaderButton from './ui/headerButton'
+import axios from 'axios';
+
 
 import {
     FaFacebookF,
@@ -16,7 +18,17 @@ import {
 import Promo from './ui/Promo';
 export default function Section1() {
 
-  
+  const handleClick = async () => {
+    try {
+         // Sending the POST request to track button click analytics
+        await axios.post('https://api.reportzai.com/api/call-analytics');
+        // // alert('Button click recorded successfully!');
+
+    } catch (error) {
+        // console.error('Error recording button click:', error);
+        // alert('Failed to record button click');
+    }
+};
     const shareLinks = {
         facebook:
           "https://www.facebook.com/sharer/sharer.php?u=https://hellopintude.com?utm_source=facebook&utm_medium=social&utm_campaign=pre_launch",
@@ -50,7 +62,8 @@ PinTude helps customers discover you online and encourages
 them to visit your store in person.
 </p>
 
-<p className='py-4'><a       href="tel:+91 82373 58619"  className=" my-5 shadow-[0px_0px_15px_5px_rgba(255,100,100,0.4)] text-xs rounded-2xl button py-4 px-6 bg-black text-white inline lg:hidden " >
+<p className='py-4'><a    onClick={handleClick}
+                onTouchStart={handleClick}   href="tel:+91 82373 58619"  className=" shadow-[0px_0px_15px_5px_rgba(255,100,100,0.4)] text-xs rounded-2xl button py-4 px-6 bg-black text-white inline lg:hidden " >
               
               <svg className='inline mr-3' width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect y="30" width="30" height="30" transform="rotate(-90 0 30)" fill="url(#pattern0_150_51)"/>
