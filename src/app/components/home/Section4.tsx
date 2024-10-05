@@ -21,7 +21,7 @@ export default function Section4() {
               <h2 className="text-3xl font-bold">₹500/year</h2>
             </div>
 
-            <a href="" className="text-white  py-4 px-6 rounded-xl mx-auto bg-gradient-to-r from-[#E0D55C] to-[#F67F60]">All UPI Payments are Accepted at Pintude</a>
+            <a href="" className="text-white  py-4 px-4 rounded-xl mx-auto lg:text-sm text-xs bg-gradient-to-r from-[#E0D55C] to-[#F67F60]">All UPI Payments are Accepted at Pintude</a>
 
 
 
