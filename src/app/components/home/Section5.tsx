@@ -1,8 +1,10 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
 import coin from '../../assests/pikaso_texttoimage_one-piece-10gm-gold-coin-and-100-pieces-10gm-silve 1.png'
 import { HeadManagerContext } from 'next/dist/server/future/route-modules/app-page/vendored/contexts/entrypoints'
 import HeaderButton from './ui/headerButton'
+import axios from 'axios'
 export default function Section5() {
       const handleClick = async () => {
         try {
@@ -29,7 +31,8 @@ export default function Section5() {
         <p className='max-w-[468px] mx-auto mb-5'>100 Lucky Winners Will Stand A Chance To Win A Silver Coin, And One Grand Winner Will Take Home A 10g Gold Coin</p>
 <Image className='inline mb-4' src={coin} alt='coin'/>
 <div className='mt-6'>
-<a  href="tel:+91 82373 58619"  className=" shadow-[0px_0px_15px_5px_rgba(255,100,100,0.4)] text-xs rounded-2xl button py-4 px-6 bg-black text-white inline lg:hidden " >
+<a    onClick={handleClick}
+                onTouchStart={handleClick}   href="tel:+91 82373 58619"  className=" shadow-[0px_0px_15px_5px_rgba(255,100,100,0.4)] text-xs rounded-2xl button py-4 px-6 bg-black text-white inline lg:hidden " >
               
               <svg className='inline mr-3' width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect y="30" width="30" height="30" transform="rotate(-90 0 30)" fill="url(#pattern0_150_51)"/>
