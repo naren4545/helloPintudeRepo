@@ -15,11 +15,7 @@ const BusinessFeatures = () => {
         <div className="text-2xl font-bold">Boost Local<br/>
         Visibility</div>
         <p className="mt-2 text-base">
-        Get your business discovered
-on the PinTude app by
-customers actively searching
-for products and services
-in their area        </p>
+        Get your business discovered on the PinTude app by customers actively searching for products and services in the area you operate in.       </p>
       </div>
 
       {/* Feature 2 */}

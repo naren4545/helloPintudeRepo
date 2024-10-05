@@ -34,9 +34,8 @@ export default function Section1() {
       <div className=" p-4 ">
         <h2 className='font-bold text-4xl mb-6'>Who We Are?</h2>
 
-        <p className='italic'>PinTude is a digital platform that helps businesses, whether
-small local shops or big multi-location brands, get noticed
-online and attract more customers.
+        <p className='italic'>PinTude is a digital platform that helps businesses, whether small local shops, home-grown brands, home based businesses or big multi-location brands, get noticed online and attract more customers.
+
 </p><p className='italic'>
 Think of it as an online version of your business card with
 maps that makes it easier for people nearby to find your

@@ -1,6 +1,7 @@
 import React from 'react'
 import DesBanner from '../../assests/Group 316.png'
-
+import HeaderButton from './ui/headerButton'
+import call from '../../assests/Call.png'
 export default function HeroSection() {
   return (
     <section className='relative'>
@@ -8,19 +9,19 @@ export default function HeroSection() {
           <img className="w-screen hidden lg:block" src={DesBanner.src} />
           <div className='flex justify-between'>
           <img className="w-auto h-[100px] block lg:hidden" src={DesBanner.src} />
-          <img className="w-auto h-[100px] block lg:hidden" src={DesBanner.src} />
+          
           </div>
         </div>
         <div className="hero-content relative  py-4 lg:py-10 px-5 lg:bg-transparent md:bg-transparent md:p-6  bottom-0 lg:absolute">
           <div className="grid grid-cols-1 py-0 md:py-10 lg:py-0">
             <div className='text-center'>
                 <h1 className='text-6xl font-bold'>Hello</h1>
-              <h2 className="banner-sub-heading text-7xl font-bold  max-w-[720px] mx-auto">Step Into The
+              <h2 className="banner-sub-heading lg:text-7xl text-3xl font-bold  max-w-[720px] mx-auto">Step Into The
               Digital Revolution.</h2>
               <h3 className="banner-heading text-2xl mt-5 mb-8">
               Smart Solutions. Affordable Prices. Future Ready.
               </h3>
-        <a  href="tel:+91 82373 58619"  className="rounded-2xl button py-4 px-6 bg-black text-white inline   " >
+        <a  href="tel:+91 82373 58619"  className="rounded-2xl button py-4 px-6 bg-black text-white inline lg:hidden  " >
               
         <svg className='inline mr-3' width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect y="30" width="30" height="30" transform="rotate(-90 0 30)" fill="url(#pattern0_150_51)"/>
@@ -37,7 +38,10 @@ Book a Call
         </a>
 
       
+<HeaderButton className="rounded-2xl button py-4 px-6 bg-black text-white lg:inline  hidden  ">
 
+<img className='inline mr-3' src={call.src}/>
+Book a Call</HeaderButton>
 
             </div>
           </div>

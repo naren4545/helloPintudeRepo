@@ -35,10 +35,13 @@ your business digital, establish
 a strong online presence, and attract
 more customers</p>
     </div>
-    <div><p className="">For this minimal investment, you can take
-your business digital, establish
-a strong online presence, and attract
-more customers</p></div>
+    <div><p className="">The benefits far 
+outweigh the cost, 
+making it an excellent 
+value for businesses 
+looking to expand their 
+reach in the digital 
+space</p></div>
 
 
 </div>

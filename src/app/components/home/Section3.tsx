@@ -21,8 +21,8 @@ digital marketing tools that help boost your
 business's visibility." />
 
 
-<CustomSection opp={false} imageSrc={img3.src} heading="Tailored For Local Businesses" para="Unlike other tools, PinTude focuses on helping small
-and local businesses thrive in the digital world." />
+<CustomSection opp={false} imageSrc={img3.src} heading="Tailored For Local Businesses" para="Unlike other tools, PinTude focuses on helping small and local businesses thrive in the digital world.
+A minimal investment for benefits that far outweigh the cost." />
 
 <CustomSection opp={true} imageSrc={img4.src} heading="All-In-One Dashboard" para="Manage your business listings, customer feedbacks,
 broadcast and updates about your business offers

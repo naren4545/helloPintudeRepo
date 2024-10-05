@@ -24,10 +24,10 @@ export default function Footer() {
     <footer>
       <div className="max-w-[1200px] py-9 mx-auto ">
 
-<NewsletterSection/>
+{/* <NewsletterSection/> */}
 <div className='py-8 my-5 max-w-[1120px] mx-auto border-footer '>
 
-<p className='text-xl font-medium text-center'>Made in India <br/>for India❤️</p>
+<p className='text-xl font-medium text-center'>Made in India <br/>For India❤️</p>
 </div>
 
 <div className="grid grid-cols-1 place-items-center pt-5 lg:place-items-start md:grid-cols-4 gap-8 mt-10">
@@ -40,12 +40,12 @@ export default function Footer() {
           </div>
 
           
-          <div>
+          <div className='hidden lg:block'>
            
           </div>
 
          
-          <div className='max-w-[200px] w-full'>
+          {/* <div className='max-w-[200px] w-full'>
           <h3 className=" text-xl font-semibold  mb-8">Company</h3>
             <ul className="space-y-1 text-base font-light footer-ul">
               <li>
@@ -77,10 +77,9 @@ export default function Footer() {
                 <a href="#" className=" ">Help</a>
               </li>
             </ul>
-          </div>
-        </div>
-<div>
-
+          </div> */}
+          <div className='hidden lg:block'></div>
+          
 <div className="mt-6 ">
                 
                 <div className="flex mt-4 space-x-4 justify-center lg:justify-start">
@@ -148,6 +147,11 @@ export default function Footer() {
                   </a>
                 </div>
               </div>
+
+        </div>
+<div>
+
+
 </div>
       </div>
     </footer>
