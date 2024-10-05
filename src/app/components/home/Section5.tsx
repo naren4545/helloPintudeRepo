@@ -10,8 +10,8 @@ export default function Section5() {
       <div className="max-w-[1200px] py-9 mx-auto ">
       <div className="mx-2">
       <div className="shadow-xl px-5 py-14 rounded-[30px] text-center max-w-[760px] bg-white mx-auto">
-        <h2 className='section-main-heading  mb-5'>Our Special Limited Time Launch Offerr<br/>
-        (101 lucky winners")</h2>
+        <h2 className='section-main-heading  mb-5'>Our Special Limited Time Launch Offer <br/>
+        For 101 lucky winners</h2>
 
         <p className='max-w-[468px] mx-auto mb-5'>100 Lucky Winners Will Stand A Chance To Win A Silver Coin, And One Grand Winner Will Take Home A 10g Gold Coin</p>
 <Image className='inline mb-4' src={coin} alt='coin'/>
