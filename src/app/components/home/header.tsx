@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className='max-w-[1200px] mx-auto'>
     <nav className="flex flex-col lg:flex-row lg:justify-between justify-center items-center p-4 bg-white ">
       {/* Logo Section */}
-      <div className="flex  items-center justify-center lg:justify-start w-full space-x-2 lg:w-auto relative">
+      <div className="flex h-[146px]  items-center justify-center lg:justify-start w-full space-x-2 lg:w-auto relative">
         <Image src={logo} alt="Pintude Logo" className="hidden" /> {/* Replace with your logo */}
         <Logo/>
       </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
         <a href="#" className="hover:text-gray-700">Faq</a> 
         <a href="#" className="hover:text-gray-700">Contact</a> */}
 
-        <div className='ml-3 pt-[30px]'> 
+        <div className='ml-3 '> 
         <a    onClick={handleClick}
                 onTouchStart={handleClick}  
          href="tel:+91 82373 58619"

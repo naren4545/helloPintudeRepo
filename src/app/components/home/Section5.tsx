@@ -44,13 +44,13 @@ export default function Section5() {
         </defs>
       </svg>
       
-      Give Us A Call & Get A Chance To Win
+      Give us a Missed Call Now
                     
               </a>
 
               <HeaderButton className="shadow-[0px_0px_15px_5px_rgba(255,100,100,0.4)] rounded-2xl button py-4 px-6 bg-black text-white lg:inline hidden ">
               <svg className=" inline mr-2 w-[30px] h-[30px] fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.08-.21c1.12.45 2.34.69 3.6.69.55 0 1 .45 1 1v3.59c0 .55-.45 1-1 1C10.29 22.5 1.5 13.71 1.5 2.99 1.5 2.44 1.95 1.99 2.5 1.99h3.59c.55 0 1 .45 1 1 0 1.25.24 2.48.69 3.6.17.42.08.91-.22 1.22l-2.2 2.2z"/></svg>
-                Give Us A Call & Get A Chance To Win
+              Give us a Missed Call Now
               </HeaderButton>
             </div>
           </div>

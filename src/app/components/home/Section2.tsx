@@ -8,7 +8,7 @@ export default function Section2() {
         
         
         <h2 className='section-main-heading max-w-[927px] mx-auto pt-5 text-center'>Struggling To Connect With Local Customers
-        Who Are Searching For Exactly What You Offer?</h2>
+        Who Are Looking For Exactly What You Offer?</h2>
         <p className='italic text-center'>PinTude is here to change that. With PinTude, you will be able to -</p>
         
 <div className='mt-9'>

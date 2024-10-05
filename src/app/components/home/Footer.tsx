@@ -2,6 +2,7 @@ import React from 'react'
 import NewsletterSection from './NewsletterSection'
 import logo from '../../assests/PinTude_Logo_v4_Transparent 1.png'
 import Image from 'next/image';
+import Logo from './ui/Logo';
 export default function Footer() {
 
     const shareLinks = {
@@ -14,7 +15,7 @@ export default function Footer() {
         linkedin:
           "https://www.linkedin.com/shareArticle?mini=true&url=https://hellopintude.com?utm_source=linkedin&utm_medium=social&utm_campaign=pre_launch",
         email:
-          "mailto:?subject=Join+PinTude+Pre-Launch&body=Check+out+PinTude:+https://hellopintude.com?utm_source=newsletter&utm_medium=email&utm_campaign=pre_launch",
+          "mailto:social@pintude.co.in?subject=Join+PinTude+Pre-Launch&body=Check+out+PinTude:+https://hellopintude.com?utm_source=newsletter&utm_medium=email&utm_campaign=pre_launch",
         sms: "sms:?&body=Check+out+PinTude:+https://hellopintude.com?utm_source=sms&utm_medium=sms&utm_campaign=pre_launch",
         telegram:
           "https://telegram.me/share/url?url=https://hellopintude.com?utm_source=telegram&utm_medium=social&utm_campaign=pre_launch&text=Check+out+PinTude!+Join+the+pre-launch+now!",
@@ -32,11 +33,10 @@ export default function Footer() {
 
 <div className="grid grid-cols-1 place-items-center pt-5 lg:place-items-start md:grid-cols-4 gap-8 mt-10">
           
-          <div className=" md:col-span-1">
-            <Image src={logo} alt='logo'/>
+          <div className=" md:col-span-1 relative top-[12px] h-[146px] ">
+             <Image className='invisible' src={logo} alt='logo'/> 
 
-            <p className='text-base font-light mt-5'>Step Into The<br/>
-            Digital Revolution.</p>
+            <Logo/>
           </div>
 
           
@@ -80,7 +80,7 @@ export default function Footer() {
           </div> */}
           <div className='hidden lg:block'></div>
           
-<div className="mt-6 ">
+<div className="mb-6 flex items-center h-full">
                 
                 <div className="flex mt-4 space-x-4 justify-center lg:justify-start">
                  

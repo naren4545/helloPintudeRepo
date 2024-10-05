@@ -39,7 +39,7 @@ export default function HeroSection() {
 
 
         <a     onClick={handleClick}
-                onTouchStart={handleClick} href="tel:+91 82373 58619"  className="rounded-2xl button py-4 px-6 bg-black text-white inline lg:hidden  " >
+                onTouchStart={handleClick} href="tel:+91 82373 58619"  className="rounded-2xl button py-4 px-6 bg-black text-sm text-white inline lg:hidden  " >
               
         <svg className='inline mr-3' width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect y="30" width="30" height="30" transform="rotate(-90 0 30)" fill="url(#pattern0_150_51)"/>
@@ -51,7 +51,7 @@ export default function HeroSection() {
   </defs>
 </svg>
 
-Book a Call
+Give us a Missed Call Now
               
         </a>
 
@@ -59,7 +59,7 @@ Book a Call
 <HeaderButton className="rounded-2xl button py-4 px-6 bg-black text-white lg:inline  hidden  ">
 
 <img className='inline mr-3' src={call.src}/>
-Book a Call</HeaderButton>
+Give us a Missed Call Now</HeaderButton>
 
             </div>
           </div>
