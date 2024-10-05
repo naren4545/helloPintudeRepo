@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
+import Script from "next/script";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -33,6 +33,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+
+        <Script
+          src="https://reportzai.com/script.js"
+          data-website-id="238976fb-f3f6-48f6-b01a-f1daa2867db3"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
