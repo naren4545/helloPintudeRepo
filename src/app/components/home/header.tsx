@@ -5,7 +5,21 @@ import Image from 'next/image';
 import Hamburger from './HamBurger';
 import HeaderButton from './ui/headerButton';
 import Logo from './ui/Logo';
+import axios from 'axios';
+
 const Navbar = () => {
+      const handleClick = async () => {
+        try {
+             // Sending the POST request to track button click analytics
+            await axios.post('https://api.reportzai.com/api/call-analytics');
+            // // alert('Button click recorded successfully!');
+  
+        } catch (error) {
+            // console.error('Error recording button click:', error);
+            // alert('Failed to record button click');
+        }
+    };
+
   return (
     <header className='reletive'>
       
@@ -20,11 +34,12 @@ const Navbar = () => {
       {/* Links Section */}
       <div className="lg:flex space-x-6 text-black text-sm lg:mt-0 mt-9 ">
         {/* <a href="#" className="hover:text-gray-700">About us</a>
-        <a href="#" className="hover:text-gray-700">Faq</a>
+        <a href="#" className="hover:text-gray-700">Faq</a> 
         <a href="#" className="hover:text-gray-700">Contact</a> */}
 
-        <div className='ml-3 pt-[30px]'>
-        <a
+        <div className='ml-3 pt-[30px]'> 
+        <a    onClick={handleClick}
+                onTouchStart={handleClick}  
          href="tel:+91 82373 58619"
           className="border inline lg:hidden text-sm border-black px-4 py-2 rounded-[7px] hover:bg-gray-100 transition-colors" 
         >
