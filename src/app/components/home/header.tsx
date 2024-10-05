@@ -32,7 +32,7 @@ const Navbar = () => {
       </div>
 
       {/* Links Section */}
-      <div className="lg:flex space-x-6 text-black text-sm lg:mt-0 mt-9 ">
+      <div className="lg:flex space-x-6 text-black text-sm lg:mt-0 mt-9  hidden">
         {/* <a href="#" className="hover:text-gray-700">About us</a>
         <a href="#" className="hover:text-gray-700">Faq</a> 
         <a href="#" className="hover:text-gray-700">Contact</a> */}
