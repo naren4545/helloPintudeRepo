@@ -48,24 +48,21 @@ export default function Promo() {
         </defs>
         <g className="cls-15">
           <text className="cls-12" transform="translate(-.0002 223.866)">
-            <tspan x="0" y="0">
-              T
-            </tspan>
+            
           </text>
           <text className="cls-6" transform="translate(7.4476 223.866)">
             <tspan x="0" y="0">
-              ell{" "}
+             
             </tspan>
           </text>
           <text className="cls-14" transform="translate(28.5735 223.866)">
             <tspan x="0" y="0">
-              Y
+             
             </tspan>
           </text>
           <text className="cls-7" transform="translate(36.3992 223.866)">
             <tspan x="0" y="0">
-              our Friends and Family who are in Business   /
-              Professional Services about Pintude
+              
             </tspan>
           </text>
         
