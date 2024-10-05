@@ -33,7 +33,7 @@ export default function Section5() {
               </a>
 
 
-              <HeaderButton className='rounded-2xl button py-4 px-6 bg-black text-white lg:inline hidden '> <svg className='inline mr-3' width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <HeaderButton className='shadow-[0px_0px_15px_5px_rgba(255,100,100,0.4)] rounded-2xl button py-4 px-6 bg-black text-white lg:inline hidden '> <svg className='inline mr-3' width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect y="30" width="30" height="30" transform="rotate(-90 0 30)" fill="url(#pattern0_150_51)"/>
         <defs>
           <pattern id="pattern0_150_51" patternContentUnits="objectBoundingBox" width="1" height="1">
