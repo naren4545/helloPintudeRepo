@@ -45,7 +45,7 @@ business when they search for services or products.</p><p>
 PinTude helps customers discover you online and encourages
 them to visit your store in person.
 </p><p className='italic'>
-Tell Y our Friends and Family who are in Business / Professional Services about Pintude</p>
+Tell Your Friends and Family who are in Business / Professional Services about Pintude</p>
 
 <div className="mt-6 ">
                 
