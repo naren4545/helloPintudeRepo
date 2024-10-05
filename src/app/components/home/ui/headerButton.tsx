@@ -34,7 +34,7 @@ interface HeaderButtonProps {
         <>
             <a
                 onClick={handleClick}
-                onTouchStart={handleClick} // Handle mobile touch events
+                onTouchStart={handleClick}  
                 className={className}
                 >
                  {children}
