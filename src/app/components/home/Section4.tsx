@@ -18,7 +18,7 @@ export default function Section4() {
                 PinTude Offers An Affordable Annual Subscription For Only{" "}
               </p>
 
-              <h2 className="text-4xl font-bold">₹500/year</h2>
+              <h2 className="text-4xl font-bold">₹500 per year</h2>
 
 
 <div className="py-7 pt-10">
