@@ -11,7 +11,7 @@ interface CustomSectionProps {
 const Dialog: React.FC<CustomSectionProps> = ({ isOpen, onClose }) => {
   return (
     <div className={isOpen ? "popup-overlay" : ""} onClick={onClose}>
-      <dialog open={isOpen} className="dialogn p-6 rounded-2xl max-w-[500px] ">
+      <dialog open={isOpen} className="dialogn p-6 rounded-2xl w-[90%] max-w-[500px] ">
         <div className="dialog-header text-right">
           <button onClick={onClose} className="close-button">
             &times;
