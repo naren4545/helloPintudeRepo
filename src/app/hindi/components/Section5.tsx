@@ -22,7 +22,7 @@ export default function Section5() {
     <section className="bg-gradient-to-r from-[#E0D55C] to-[#F67F60]">
       <div className="max-w-[1200px] py-9 mx-auto ">
         <div className="mx-2">
-          <div className=" px-5 py-14 rounded-[30px] text-center max-w-[690px] text-white mx-auto">
+          <div className=" px-5 py-14 rounded-[30px] text-center max-w-[1300px] text-white mx-auto">
             <h2 className="md:text-5xl text-xl font-bold  mb-5">
             हमारी विशेष लॉन्च ऑफर
             (सीमित समय के लिए)
