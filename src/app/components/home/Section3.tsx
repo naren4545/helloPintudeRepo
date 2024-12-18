@@ -8,17 +8,21 @@ import img5 from '../../assests/6285106 1.png'
 export default function Section3() {
   return (
     <section>
- <div className='max-w-[1200px] mx-auto my-10 p-6'>
+ <div className='max-w-[1200px] mx-auto px-3  py-6'>
 
-<h2 className='section-main-heading pt-8 text-center pb-6'>Features</h2>
+<h2 className='md:text-4xl  text-base font-bold pt-8 text-center pb-6'>All-in-One Features</h2>
+<h3 className='md:text-3xl text-sm text-center'>Unlock tools to grow and manage your 
+business effortlessly.</h3>
 
-
-<CustomSection opp={false} imageSrc={img1.src} heading="Reach More Local Customers" para="PinTude helps people nearby discover your business,
-increasing foot traffic and sales." />
-
-<CustomSection opp={true} imageSrc={img2.src} heading="Affordable & Effective" para="For just ₹500 per year, you get access to powerful
+<CustomSection opp={false} imageSrc={img2.src} heading="Affordable & Effective" para="For just ₹500 per year, you get access to powerful
 digital marketing tools that help boost your
 business's visibility." />
+
+
+<CustomSection opp={true} imageSrc={img1.src} heading="Reach More Local Customers" para="PinTude helps people nearby discover your business,
+increasing foot traffic and sales." />
+
+
 
 
 <CustomSection opp={false} imageSrc={img3.src} heading="Tailored For Local Businesses" para="Unlike other tools, PinTude focuses on helping small and local businesses thrive in the digital world.

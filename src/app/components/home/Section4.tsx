@@ -5,23 +5,27 @@ export default function Section4() {
     <section>
       <div className="max-w-[1200px] mx-auto my-10">
         <div className="mx-4">
-        <div className="shadow-xl px-7 py-14 rounded-[30px]">
+        <div className="shadow-xl px-5 py-14 rounded-md">
           <div className="text-center">
-            <h2 className="section-main-heading text-center mb-5">
+            <h2 className="md:text-4xl text-xl font-semibold text-center mb-5">
               No More Complex Pricing,
               <br />
               One Price For All The Features
             </h2>
 
-            <div className="text-center mb-9 p-5 shadow-lg rounded-[20px] max-w-[352px] mx-auto">
-              <p className="text-sm max-w-[200px] mx-auto">
+            <div className="text-center mb-9 p-5 border-[#FF5E62] border rounded-[20px] max-w-[614px] mx-auto">
+              <p className="text-sm md:text-2xl max-w-[558px] mx-auto">
                 PinTude Offers An Affordable Annual Subscription For Only{" "}
               </p>
 
-              <h2 className="text-3xl font-bold">₹500/year</h2>
+              <h2 className="text-4xl font-bold">₹500/year</h2>
+
+
+<div className="py-7 pt-10">
+              <a href="https://signupzai.com/signup" id="signup-button" data-umami-event="Signup button" target="_blank" className="text-white  py-4 px-4 rounded-[57px] mx-auto text-sm md:text-2xl bg-[#FF5E62]">Signup Now</a>
+              </div>
             </div>
 
-            <a href="" className="text-white  py-4 px-4 rounded-xl mx-auto lg:text-sm text-xs bg-gradient-to-r from-[#E0D55C] to-[#F67F60]">All UPI Payments are Accepted at Pintude</a>
 
 
 

@@ -39,6 +39,29 @@ body {
 .border-footer {
   border-bottom: 1px solid #CFCFCF;
 }
+.typewriter-container {
+  width: fit-content;
+  margin: auto;
+  font-family: 'Noto Sans', sans-serif;
+  white-space: nowrap;
+  
+  padding-bottom:26px;
+}
+
+.blinking-cursor {
+  color: #F67F60 ;
+  display: inline-block;
+  width: 10px; /* Adjust width for the cursor */
+  animation: blink .5s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+
 .popup-overlay{
   position: fixed;
   top: 0;
@@ -50,7 +73,7 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 1000;
-
+margin: 0!important;
 }
 a{
   cursor: pointer;
