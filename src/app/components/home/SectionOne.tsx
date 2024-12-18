@@ -3,8 +3,8 @@ import img from "../../assests/500 rs.svg"
 import arow from "../../assests/arow.svg"
 
 
-import createBiz from "../../assests/createBiz.svg"
-import showCase from "../../assests/showcaseWork.svg"
+import createBiz from "../../assests/create biz page.svg"
+import showCase from "../../assests/showcase services.svg"
 
 export default function BusinessLanding() {
   return (
@@ -55,7 +55,7 @@ export default function BusinessLanding() {
               <Image
                 src={createBiz}
                 alt="Services Icon"
-                className="md:w-auto w-[50px]"
+                className="md:w-[140px] w-[50px]"
               />
             </div>
             <div className="text-center">
@@ -74,7 +74,7 @@ export default function BusinessLanding() {
               <Image
                 src={showCase}
                 alt="Connect Icon"
-                className="md:w-auto w-[50px]"
+                className="md:w-[140px] w-[50px]"
                 
               />
             </div>

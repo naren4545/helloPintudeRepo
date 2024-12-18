@@ -57,7 +57,7 @@ export default function BusinessLanding() {
               <Image
                 src={createBiz}
                 alt="Services Icon"
-                className="md:w-auto w-[50px]"
+                className="md:w-[140px] w-[50px]"
               />
             </div>
             <div className="text-center">
@@ -76,7 +76,7 @@ export default function BusinessLanding() {
               <Image
                 src={showCase}
                 alt="Connect Icon"
-                className="md:w-auto w-[50px]"
+                className="md:w-[140px] w-[50px]"
                 
               />
             </div>
