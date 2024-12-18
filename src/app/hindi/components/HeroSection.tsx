@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"; 
 import hero from '../../assests/heroImg.svg'
-
+import pink from '../../assests/Group 698.svg'
 import React, { memo } from "react";
 import dynamic from "next/dynamic";
 import axios from "axios";
@@ -54,8 +54,10 @@ export default function HeroSection() {
     <section className="py-7">
       <div className="max-w-[1327px] mx-auto p-2">
         <div className="flex  items-center lg:flex-row">
-          <div className="lg:w-[60%] w-full ">
+          <div className="lg:w-[60%] w-full relative">
             <HeroContent />
+            <Image src={pink} alt="digital connection " className="md:w-auto w-[42px] absolute bottom-0 right-0 z-[-1] " priority={true}/>
+
           </div>
           <div className="lg:w-[40%] w-full  ">
             <Image
