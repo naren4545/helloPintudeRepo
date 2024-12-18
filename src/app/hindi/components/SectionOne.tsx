@@ -41,7 +41,7 @@ export default function BusinessLanding() {
             आपके व्यापार की पहुंच बढ़ाने के लिए सभी 
 टूल्स के साथ किफायती मूल्य।.
             </p>
-            <a className=" text-[#FF5E62] md:text-[14px] text-[10px] md:text-2xl font-semibold  ">
+            <a href="https://pintude.com/" target="_blank" className=" text-[#FF5E62] md:text-[14px] text-[10px] md:text-2xl font-semibold  ">
             और जानें <Image
                 src={arow}
                 alt="Business Page Icon"

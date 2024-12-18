@@ -39,7 +39,7 @@ export default function BusinessLanding() {
             <p className="text-[12px] md:text-3xl font-light mb-4">
               Affordable marketing solutions when you need to grow your reach
             </p>
-            <a className=" text-[#FF5E62] md:text-[14px] text-[10px] md:text-2xl font-semibold  ">
+            <a href="https://pintude.com/" target="_blank" className=" text-[#FF5E62] md:text-[14px] text-[10px] md:text-2xl font-semibold  ">
               Learn More <Image
                 src={arow}
                 alt="Business Page Icon"
