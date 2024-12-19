@@ -8,7 +8,7 @@ import showCase from "../../assests/showcase services.svg"
 
 export default function BusinessLanding() {
   return (
-    <div className="bg-[#F8F9DE] px-4 md:px-6 py-10 md:py-12">
+    <div className="bg-[#F8F9DE] px-4 md:px-6 py-3 md:py-12">
       <div className="max-w-[1300px] mx-auto">
         <div className="text-center py-4  md:py-10">
           <h1 className="text-sm md:text-[48px] font-bold mb-3 md:mb-4">
