@@ -10,7 +10,7 @@ export default function BusinessLanding() {
   return (
     <div className="bg-[#F8F9DE] px-4 md:px-6 py-10 md:py-12">
       <div className="max-w-[1300px] mx-auto">
-        <div className="text-center  py-10">
+        <div className="text-center  py-4  md:py-10">
           <h2 className="text-sm md:text-[48px] font-bold mb-3 md:mb-4">
           स्थानीय ग्राहकों द्वारा खोजे जाएं
           </h2>

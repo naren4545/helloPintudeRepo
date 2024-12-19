@@ -24,7 +24,7 @@ export default function Section5() {
         <div className="mx-2">
           <div className=" px-5 md:py-14 py-5 rounded-[30px] text-center max-w-[1300px] text-white mx-auto">
             <h2 className="md:text-5xl text-xl font-bold  mb-5">
-            Our Special Launch Offer
+            Our Special Launch Offer<br className='md:hidden inline'></br>
 (for Limited Time)
             </h2>
 
