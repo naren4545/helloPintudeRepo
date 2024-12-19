@@ -32,7 +32,7 @@ export default function Section5() {
 A Silver Coin, And One Grand Winner Will 
 Take Home A 10g Gold Coin</p>
 
-<div className='px-3 bg-white rounded-xl text-black py-8 max-w-[567px] mx-auto'>
+<div className='px-1 bg-white rounded-xl text-black py-8 max-w-[567px] mx-auto'>
 <Image className='inline mb-4 md:w-[227px] w-[114px]' src={coin}  alt='coin'/>
 <p className='py-5 md:text-2xl text-xs'>Sign up on PinTude within <span className='font-bold italic text-[#FF5E62]'>60 days of launch,</span>
 complete your business registration, payment,

@@ -30,7 +30,7 @@ export default function Section5() {
 
         <p className=' md:text-3xl text-xs font-light mx-auto mb-5'>100 भाग्यशाली विजेता एक चांदी का सिक्का जीत सकते हैं, और एक मुख्य विजेता 10 ग्राम सोने का सिक्का जीतने का मौका पाएंगे।</p>
 
-<div className='px-3 bg-white rounded-xl text-black py-8 max-w-[567px] mx-auto'>
+<div className='px-1 bg-white rounded-xl text-black py-8 max-w-[567px] mx-auto'>
 <Image className='inline mb-4 md:w-[227px] w-[114px]' src={coin}  alt='coin'/>
 <p className='py-5 md:text-2xl text-xs'>पिंट्यूड पर<span className='font-bold italic text-[#FF5E62]'> 60 दिनों</span> के भीतर साइन अप करें, अपने व्यापार 
 को रजिस्टर करें, भुगतान करें और पुष्टि करें, 

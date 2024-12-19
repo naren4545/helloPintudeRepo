@@ -29,7 +29,7 @@ export default function BusinessLanding() {
               <Image
                 src={img}
                 alt="Business Page Icon"
-                
+                className="md:w-[170px] w-[80px]"
               
               />
             </div>
