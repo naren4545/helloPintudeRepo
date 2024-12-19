@@ -49,7 +49,7 @@ HeroContent.displayName = "HeroContent";
 
 export default function HeroSection() {
   return (
-    <section className="py-7">
+    <section className="pb-7">
       <div className="max-w-[1327px] mx-auto p-2">
         <div className="flex  items-center lg:flex-row">
           <div className="lg:w-[60%] w-full  relative">

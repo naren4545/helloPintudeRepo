@@ -34,7 +34,7 @@ export default function BusinessLanding() {
             </div>
             <div className="text-center">
             <h2 className="text-sm md:text-4xl font-bold mb-2">
-              List for Just ₹500/Year
+              List for Just ₹500 per Year
             </h2>
             <p className="text-[12px] md:text-3xl font-light mb-4">
               Affordable marketing solutions when you need to grow your reach

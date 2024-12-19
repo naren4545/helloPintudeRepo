@@ -35,7 +35,7 @@ export default function BusinessLanding() {
             </div>
             <div className="text-center">
             <h2 className="text-sm md:text-4xl font-bold mb-2">
-            ₹500/साल में व्यापार को ऑनलाइन लाएं
+            ₹500 प्रति साल में व्यापार को ऑनलाइन लाएं
             </h2>
             <p className="text-[12px] md:text-3xl font-light mb-4">
             आपके व्यापार की पहुंच बढ़ाने के लिए सभी 
