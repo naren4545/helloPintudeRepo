@@ -40,7 +40,7 @@ export default function Section6() {
           <div className="md:text-lg text-xs 0 pt-4">
           यदि आपके पास कोई प्रश्न हैं, तो हमें किसी भी समय<br/>  <a 
               href="mailto:social@pintude.co.in"
-              className="text-gray-900 hover:underline"
+              className="text-gray-900 hover:underline font-medium"
             >
               social@pintude.co.in
             </a> पर ईमेल करें।

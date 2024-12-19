@@ -15,7 +15,7 @@ export default function Footer2() {
   }
 
   return (
-    <footer className="bg-[#1C1C1C] text-white py-12 px-4">
+    <footer className="bg-[#1C1C1C] text-white pt-12 ">
       <div className="max-w-[1300px] mx-auto text-center">
         <h2 className="md:text-6xl text-xl font-bold mb-4">अपडेटेड रहें!</h2>
         <p className="md:text-3xl text-sm mb-8">
@@ -24,7 +24,7 @@ export default function Footer2() {
         </p>
 
         <form onSubmit={handleSubmit} className="mb-12">
-          <div className="flex  sm:flex-row  max-w-[800px] mx-auto relative">
+          <div className="flex  sm:flex-row px-3 max-w-[800px] mx-auto relative">
             <input
               type="tel"
               value={mobileNumber}
@@ -50,7 +50,12 @@ export default function Footer2() {
           </p>
         </div>
 
-        <div className="flex text-left  sm:flex-row justify-between items-center gap-4 text-gray-400 md:text-sm text-[8px]">
+        
+      </div>
+
+      <hr className='border-b border-[#FFFFFF]'/>
+
+      <div className="flex max-w-[1300px] mx-auto text-left py-5  sm:flex-row justify-between items-center gap-4 text-gray-400 md:text-sm text-[8px]">
           <p>Copyright © 2024 PinTude, All Rights Reserved.</p>
           
           <div className="flex gap-2 md:gap-6">
@@ -83,7 +88,6 @@ export default function Footer2() {
             </a>
           </div>
         </div>
-      </div>
     </footer>
   )
 }
