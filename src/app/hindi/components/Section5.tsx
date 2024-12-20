@@ -20,15 +20,15 @@ export default function Section5() {
 
   return (
     <section className="bg-gradient-to-r from-[#E0D55C] to-[#F67F60]">
-      <div className="max-w-[1200px] py-9 mx-auto ">
+      <div className="max-w-[1200px] md:py-9 py-4 mx-auto ">
         <div className="mx-2">
           <div className=" px-5 md:py-14 py-5 rounded-[30px] text-center max-w-[1300px] text-white mx-auto">
-            <h2 className="md:text-5xl text-xl font-bold  mb-5">
+            <h2 className="md:text-5xl text-xl font-bold  md:mb-5 mb-2">
             हमारी विशेष लॉन्च ऑफर<br className='md:hidden inline'></br>
             (सीमित समय के लिए)
             </h2>
 
-        <p className=' md:text-3xl text-xs font-light mx-auto mb-5'>100 भाग्यशाली विजेता एक चांदी का सिक्का जीत सकते हैं, और एक मुख्य विजेता 10 ग्राम सोने का सिक्का जीतने का मौका पाएंगे।</p>
+        <p className=' md:text-3xl text-xs font-light mx-auto md:mb-5 mb-2'>100 भाग्यशाली विजेता एक चांदी का सिक्का जीत सकते हैं, और एक मुख्य विजेता 10 ग्राम सोने का सिक्का जीतने का मौका पाएंगे।</p>
 
 <div className='px-1 bg-white rounded-xl text-black py-8 max-w-[567px] mx-auto'>
 <Image className='inline mb-4 md:w-[227px] w-[114px]' src={coin}  alt='coin'/>
@@ -38,12 +38,12 @@ export default function Section5() {
 </p>
 <div className='mt-6'>
 <a    onClick={handleClick}
-                onTouchStart={handleClick} id="signup-button" data-umami-event="Signup button"   href="https://signupzai.com/signup" target="_blank"  className=" shadow-[0px_0px_15px_5px_rgba(255,100,100,0.4)] text-xs rounded-2xl button py-3 px-3 bg-black text-white inline lg:hidden " >
+                onTouchStart={handleClick} id="signup-button" data-umami-event="Signup button"   href="https://signupzai.com/signup" target="_blank"  className=" shadow-[0px_0px_15px_5px_rgba(255,100,100,0.4)] text-xs rounded-[57px] button py-3 px-3 bg-black text-white inline lg:hidden " >
             आज ही रजिस्टर करें और जीतने का मौका पाएं!
                     
               </a>
 
-              <a href="https://signupzai.com/signup" id="signup-button" data-umami-event="Signup button" target="_blank" className="shadow-[0px_0px_15px_5px_rgba(255,100,100,0.4)] rounded-2xl button py-4 px-6 bg-black text-white lg:inline hidden ">
+              <a href="https://signupzai.com/signup" id="signup-button" data-umami-event="Signup button" target="_blank" className="shadow-[0px_0px_15px_5px_rgba(255,100,100,0.4)] rounded-[57px] button py-4 px-6 bg-black text-white lg:inline hidden ">
               आज ही रजिस्टर करें और जीतने का मौका पाएं!
               </a>
             </div>

@@ -45,7 +45,7 @@ export default function Section6() {
             <a 
              id="email-button" data-umami-event="email button"
               href="mailto:social@pintude.co.in"
-              className="text-gray-900 hover:underline font-medium"
+              className="text-gray-900 hover:underline font-semibold"
             >
               social@pintude.co.in
             </a>

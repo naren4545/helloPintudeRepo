@@ -7,14 +7,14 @@ export default function Section4() {
         <div className="mx-4">
         <div className="shadow-xl px-5 py-14 rounded-md">
           <div className="text-center">
-            <h2 className="md:text-4xl text-xl font-semibold text-center mb-5">
-            अब कोई उलझन भरा मूल्य निर्धारण नहीं, 
+            <h2 className="md:text-5xl text-xl font-semibold text-center mb-5">
+            अब कोई उलझन भरा मूल्य निर्धारण नहीं, <br/>
             सभी सुविधाएं एक ही कीमत पर।
               <br />
         
             </h2>
-
-            <div className="text-center mb-9 p-5 border-[#FF5E62] border rounded-[20px] max-w-[614px] mx-auto">
+<div className="rounded-[6px] max-w-[614px] my-6 mx-auto p-[1px] bg-gradient-to-r from-[#E0D55C] to-[#F67F60]">
+            <div className="text-center w-full p-5 bg-white rounded-[6px] max-w-[614px] ">
               <p className="text-sm md:text-2xl max-w-[558px] mx-auto">
               पिंट्यूड प्रदान करता है एक 
 किफायती वार्षिक सब्सक्रिप्शन 
@@ -29,7 +29,7 @@ export default function Section4() {
               </div>
             </div>
 
-
+            </div>
 
 
 <div className="flex flex-col gap-4 mt-12 text-left lg:flex-row custom-bullet max-w-[800px] mx-auto" >

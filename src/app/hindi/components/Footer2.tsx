@@ -35,7 +35,7 @@ export default function Footer2() {
             />
             <button
               type="submit"
-              className="md:px-8 bg-gradient-to-r from-[#F97F51] to-[#F9C051]  relative left-[-15px] px-1 py-3 md:text-2xl text-xs rounded-lg font-semibold text-white  hover:opacity-90 transition-opacity"
+              className="md:px-8 bg-gradient-to-r from-[#F97F51] to-[#F9C051]  relative left-[-15px] px-2 py-3 md:text-2xl text-xs rounded-lg font-semibold text-white  hover:opacity-90 transition-opacity"
             >
               सूचित करें!
             </button>
