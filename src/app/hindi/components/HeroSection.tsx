@@ -22,7 +22,7 @@ const handleClick = async () => {
  
 const HeroContent = memo(() => (
   <div className=" max-w-[734px]">
-    <h1 className="font-m pt-6 md:text-[54px] md:leading-[70px] text-base font-bold md:mb-5 mb-2 ">
+    <h1 className="font-m md:pt-6 md:text-[54px] md:leading-[70px] text-base font-bold md:mb-5 mb-2 ">
     डिजिटल सफलता की <br/>
     ओर कदम बढ़ाएं।
     </h1>
@@ -51,7 +51,7 @@ HeroContent.displayName = "HeroContent";
 
 export default function HeroSection() {
   return (
-    <section className="pb-7">
+    <section className="pb-7 pt-2">
       <div className="max-w-[1327px] mx-auto p-2">
         <div className="flex  items-center lg:flex-row">
           <div className="lg:w-[60%] w-full relative">

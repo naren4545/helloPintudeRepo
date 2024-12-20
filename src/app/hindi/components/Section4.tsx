@@ -3,7 +3,7 @@ import React from "react";
 export default function Section4() {
   return (
     <section>
-      <div className="max-w-[1200px] mx-auto my-10">
+      <div className="max-w-[1200px] mx-auto md:my-10">
         <div className="mx-4">
         <div className="shadow-xl px-5 py-14 rounded-md">
           <div className="text-center">

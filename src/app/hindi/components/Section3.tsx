@@ -8,7 +8,7 @@ import img5 from '../../assests/6285106 1.png'
 export default function Section3() {
   return (
     <section>
- <div className='max-w-[1200px] mx-auto px-3  py-6'>
+ <div className='max-w-[1200px] mx-auto px-3  md:py-6'>
 
 <h2 className='md:text-4xl  text-base font-bold pt-8 text-center md:pb-6 pb-3'>आपके व्यापार के लिए सभी आवश्यक सुविधाएँ</h2>
 <h3 className='md:text-3xl text-sm text-center'>अपने व्यापार को आसानी से बढ़ाने और प्रबंधित करने के लिए 

@@ -26,7 +26,7 @@ const Navbar = () => {
     };
 
   return (
-    <header className='reletive py-6'>
+    <header className='reletive py-2 md:py-6'>
       
         <div className='max-w-[1327px] mx-auto'>
     <nav className="flex  lg:flex-row lg:justify-between justify-center items-center  bg-white ">
